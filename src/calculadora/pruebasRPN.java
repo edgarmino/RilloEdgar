@@ -3,13 +3,13 @@ package calculadora;
 import org.junit.Test;
 
 import junit.framework.TestCase;
-import calculadora.RPN;
+import calculadora.ReversePolishNotation;
 
 public class pruebasRPN extends TestCase {	
 	/**
 	 * @author Edgar
 	 */
-	RPN rpn = new RPN(" P 4 5 + + ");
+	ReversePolishNotation rpn = new ReversePolishNotation(" P 4 5 + + ");
 	@Test
 	public void test() {
 		assertEquals(9.0, rpn.resultado());

@@ -13,7 +13,7 @@ poner los paréntesis para alterar la prioridad)
  Se debe reorganizar este código usando al menos tres de las reglas
 vistas en clase.
  */
-public class RPN {
+public class ReversePolishNotation {
 	/**
 	 * @author Edgar
 	 */
@@ -26,7 +26,7 @@ public class RPN {
 		arriba = arriba.abajo;
 		return dato_arriba;
 	}
-	public RPN(String commando) {
+	public ReversePolishNotation(String commando) {
 		arriba = null;
 		this.commando = commando;
 	}
