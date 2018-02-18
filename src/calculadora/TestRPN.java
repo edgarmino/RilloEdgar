@@ -2,7 +2,6 @@ package calculadora;
 import java.util.Scanner;
 import org.junit.Test;
 public class TestRPN {
-	/* metodo main */
 	/**
 	 * @author Edgar
 	 */
